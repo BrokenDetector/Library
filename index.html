@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="css/main.css" rel="stylesheet">
+    <title>Library</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Library</h1>
+        </div>
+        <div class="main">
+            <div class="addbook">
+                <h2>Add new book</h2>
+                <form id="form" action="#">
+                    <input class="title_input" type="text" required placeholder="Title">
+                    <input class="author_input" type="text" required placeholder="Author">
+                    <input class="pages_input" type="number" required placeholder="Pages">
+                    <label class="isRead">Have you read it? <input class="check" type="checkbox"></label>
+                </form>
+                <button form="form" type="submit">Add</button>
+            </div>
+
+            <h2>My books</h2>
+
+            <div class="library"></div>
+        </div>
+        <div class="footer">
+            <p>Made by <img src="./img/GitHubLogo.png"><a href="https://github.com/BrokenDetector">BrokenDetector</a>
+            </p>
+        </div>
+    </div>
+</body>
+<script src="js/index.js"></script>
+
+</html>
